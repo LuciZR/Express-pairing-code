@@ -36,8 +36,8 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 app.post('/pair', async (req, res) => {
   const { phone, mongoUrl, dbName } = req.body
 
-  if (!phone) return res.json({ error: 'Please Provide Phone Number' })
-  if (!mongoUrl) return res.json({ error: 'mongodb://lucipvtltd:ANO@@$5007@lucipvtltd/?ssl=true&replicaSet=atlas-13u07t-shard-0&authSource=admin&retryWrites=true&w=majority&appName=ZR-PAIR' })
+  if (!phone) return res.json({ error: '918293838182' })
+  if (!mongoUrl) return res.json({ error: 'mongodb+srv://lucipvtltd:ANO@@$5007@zr-pair.2paeh.mongodb.net/?retryWrites=true&w=majority&appName=ZR-PAIR' })
   if (!dbName) return res.json({ error: 'ZR-PAIR' })
 
   try {
